@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<body>
+		<form id="orderForm">
+			<h1 style="color: purple">A Simple Form</h1>
+			<h2 style="color: #FF4E5D"> Form fundamental</h2>
+	<fieldset>
+		<legend>Customer</legend>
+		<div>
+			<label> 
+				Name:
+				<input type="text" 
+				name="name" 
+				id="name"
+				autofocus
+				placeholder="Enter your name" size="50"
+				
+				 >
+			</label>
+		</div>
+
+		<div>
+			<label> 
+				Telephone:
+				<input type="text" 
+				 name="Telephone"
+				 id="Telephone" 
+				 placeholder="Pattem: 1-234-567-8910"
+				 size="50">
+			</label>
+		</div>
+			
+		<div>
+			<label>E-mail adress:</label>
+				
+				<input type="text"
+				name="E-mail adress"
+				id="E-mail adress"
+				placeholder="Enter your E-mail adress" 
+				size="50">
+		</div>
+		<div>
+			<label>Gender:</label>
+			<input type="radio" 
+			 name="Gender"
+			 id="Male"
+			 value="Male"
+			 > Male
+			<input type="radio" 
+			 name="Gender"
+			 id="Female"
+			 value="Female"
+			 > Female
+		</div>
+		<div>
+			<label for>Hobbies:</label>
+			<input type="checkbox" 		
+			 value="Basketball"
+			 > Basketball
+			<input type="checkbox" 
+			 name="Hobbies"
+			 id="Football"
+			 value="Football"
+			 > Football
+			 <input type="checkbox"
+			 name="Hobbies"
+			 value="Badminton"
+			 >Badminton
+		</fieldset>
+</form>
+
+
+	<fieldset>
+		<legend>book</legend>		
+		<label>name:</label>
+		<input type="text"
+		 name="name"
+		 size="50">
+		<label>Quantity(Maximum 5):</label>
+		<input type="number" 
+		 name="number"
+		 min="1"
+		 max="5" 
+		 >
+	</fieldset>
+
+	 <button type="Submit">Submit</button>
+	 <button type="Reset">Reset</button>
+
+	</body>
+</html>
