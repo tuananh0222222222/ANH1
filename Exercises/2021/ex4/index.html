@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> bai 4</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+			<h1>Đăng kí thành viên</h1>
+			<p>Để đăng ký thành viên, bạn cần khai báo tất cả các ô trống dưới đây</p>
+		<div class="head">
+			<form action="/action_page.php">
+				<input type="text" name="name" placeholder="Họ và tên đệm" size="100"><br>
+				<input type="text" name="tên" placeholder="Tên" size="100"><br>
+				<input type="text" name="Tên đăng nhập" placeholder="Tên đăng nhập" size="100"><br>
+				<input type="email" name="email" placeholder="Email" size="100"><br>
+				<input type="password" name="mật khẩu" placeholder="mật khẩu" size="100"><br>
+				<input type="password" name="mật khẩu" placeholder="Nhập lại mật khẩu" size="100">
+		<div>
+		</div>			
+				<b>Giới tính</b>
+				<input type="radio" name="gender" value="N/A">N/A
+				<input type="radio" name="gender" value="male">Nam
+				<input type="radio" name="gender" value="female">Nữ		
+		<div>
+			<input type="date" name="date" placeholder="Ngày tháng năm sinh" size="1"><br>
+			<input type="text" name="chữ kí" placeholder="Chữ kí" size="100"><br>
+		<div>
+				<p>					
+ 					 <select id="question" name="question">
+    						<option value="volvo">Nhạc sĩ</option>
+    						<option value="saab">Món ăn yêu thích</option>
+    						<option value="fiat">Tên bài hát yêu thích</option>
+    						<option value="audi">Quê quán</option>  
+  						</select>
+  				</p>
+  		</div>
+  			<input type="text" placeholder="Trả lời câu hỏi bảo mật" size="100">
+  		<div class="link">
+  				<input type="checkbox" name="toidongyvoidieu">Tôi đồng ý với
+  				<a href="https://luatminhkhue.vn/thanh-vien-cong-ty-la-gi---quy-dinh-phap-luat-ve-thanh-vien-cong-ty.aspx">Quy định thành viên</a>
+  		</div>
+  			<button class="btn-reset" type="reset">Thiết lập lại</button>
+  			<button class="btn-submit" type="submit">Đăng kí thành viên</button>
+		</form>
+	</div>
+</body>
+</html>
