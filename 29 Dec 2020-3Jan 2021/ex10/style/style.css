@@ -1,0 +1,38 @@
+.container{
+    font-family: 'Audiowide', cursive;
+    align-items: center;
+    width: 45%;
+    margin:auto;
+    padding: 3px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon img{
+    padding: 5px;
+    width: 14px;
+    height: 16px;
+}
+
+.description{
+    border-bottom: 3px solid #DDE6ED;
+}
+
+.year{
+    text-align: right;
+    
+}
+
+.border-top{
+    border-top: 1px solid  #DDE6ED ;
+}

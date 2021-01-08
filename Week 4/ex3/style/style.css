@@ -1,0 +1,14 @@
+.box{
+	background-color: #eeffff;
+	margin: 0 auto;
+	width: 38%;
+}
+.box h1{
+	color: red;
+}
+.box ul li{
+	color: red;
+}
+.text{
+	color: red;
+}

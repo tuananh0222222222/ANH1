@@ -1,0 +1,53 @@
+.container{
+    width: 40%;
+    border: 10px solid #0862B1 ;
+    height: 570px;
+    padding-top: 20px;
+}
+
+ .col-sm-12 .login{
+    text-align: center;
+    border-bottom: 1px solid #E8EEEF;
+    color: thistle;
+    padding: 5px;
+}
+
+.col-sm-12 .social{
+    justify-content: center;
+    width: 161px;
+    color: white;
+    height: 50px;
+    border: none;
+}
+
+.col-sm-12 p{
+    color: #3998EB;
+}
+
+.col-sm-12 p input{
+    width: 100%;
+    background-color: #F2F3F4;
+    border: 1px solid #E4E7EA ;
+}
+
+.col-sm-12 ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.col-sm-12 ul .auto{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.col-sm-12 ul .forgot{
+    float: right;
+}
+
+.container .col-sm-12 .dangki{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #E1E9EF;
+    height: 40px;
+}

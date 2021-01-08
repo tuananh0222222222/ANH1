@@ -1,0 +1,59 @@
+  
+.container{
+    border: 8px solid #105A9A;
+    height: 600px;
+    padding-top: 25px;
+}
+
+.container .col-sm-8 img{
+    width: 100%;
+    position: relative;
+}
+.label{
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    color: white;
+    background-color: black;
+    height: 25%;
+    margin-left: 80px;
+    font-size: 12px;
+    opacity: 0.6;
+    padding: 10px;
+}
+hr{
+    border: 3px solid white;
+    width: 100px;
+    margin-left: 0;
+}
+
+.label .text-label{
+    color: white;
+    position: absolute;
+    
+}
+.col-sm-4 input{
+    width: 100%;
+    height: 40px;
+    border-color: gainsboro;
+}
+
+.container p{
+    color: #439BE7;
+    font-size: 16px;
+}
+
+p span{
+    font-family: 'Permanent Marker', cursive;;
+}
+
+.container .col-sm-4 button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+button.dangki{
+    background-color: #78E94E;
+    color: white;
+}

@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'lora',sans-serif;
+}
+.container{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ,url(../Desktop/img/header.jpg);
+    background-size: cover;
+    position: relative;
+    height:600px;
+    background-position: center;
+    object-fit: cover;
+}
+.nav ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    font-size: 15px;
+}
+.nav ul li .text{
+    border: 1px solid white;
+    padding:15px;
+    margin: 30px;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+.nav ul li .text:hover{
+    color:#000;
+    background: white;
+    transition: 0.6s ease;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}     
+.title h1{
+    font-size: 60px;
+    color: white;
+}
+.link {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;   
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    background-color :rgb(54, 179, 168);
+    border: 1px  ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.box{
+    background-color: rgb(247, 247, 247);
+}
+.box .text p{
+    font-size: 50px;
+}

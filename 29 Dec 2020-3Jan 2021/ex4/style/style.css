@@ -1,0 +1,62 @@
+.container{
+    background-color: #DAE1E8;
+    width: 60%;
+    margin-top: 4%;
+}
+
+.container h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .headform input{
+    width:100%  ;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+
+
+}
+
+p span{
+    text-align: left;
+}
+
+p.sex{
+    text-align: center;
+}
+
+.input .radio{
+    width: 10px;
+}
+
+#datepicker{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.checkbox{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+
+}
+
+button{
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.dangki{
+    background-color: #70B7F5;
+    color: white;
+    width: 170px;
+}

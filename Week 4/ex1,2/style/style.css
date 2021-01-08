@@ -1,0 +1,82 @@
+*{
+	font-family: verdana;
+}
+body{
+
+	background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-kraft-paper-texture-papertexturepaperbackground-image_84899.jpg);
+	background-size: cover;
+}
+.nav {
+  background-color: pink; 
+  list-style-type: none;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding:20px;
+ 
+}
+
+
+ul li {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+ 
+}
+.nav a {
+	border:1px solid;
+	text-decoration: none;
+	padding: 5px;
+	background-color: yellow;
+
+}
+.nav a:hover{
+	color: pink;
+	background-color:purple;
+}
+.container h1{
+	color: red;
+	font-family: Arial;
+}
+.container h3{
+	color: white;
+}
+.logo{
+	background-color: yellow;
+	text-align: center;
+}
+.box{
+	border:3px dotted;
+	width: 600px;
+	height: 530px;
+	margin: 15px auto; 
+}
+.text{
+	text-align: center;
+}
+.menu{
+	display: inline-grid;
+	padding: 15px;
+	color: white;
+	text-align: center;
+}
+button{
+	color: white;
+}
+.menu button{
+ 	border:1px solid blue;
+ 	background-color: blue;
+ 	border-radius: 5px;
+ 	font-size: 20px;
+ 	margin: 3px;
+}
+footer{
+	border:1px ;
+	background-color: #00ffff;
+	width: 40%;
+	height: 45px;
+	text-align: center;
+	border-radius: 20px;
+	padding: 15px;
+	margin-left: 10px;
+}

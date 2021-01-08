@@ -1,0 +1,31 @@
+body{
+	width: 85%;
+	background-color: #F6F3E5;
+	margin: auto;
+	margin-top: 50px;
+	text-align: justify;
+}
+.container{
+	background-color: white;
+	width: 100%;
+	padding: 4px 0 0 0;
+}
+div{
+	width: 100%;
+	display: inline-block;
+	overflow: auto;
+}
+.article{
+	width: 69%;
+    background-color: white;
+    float: left;
+    padding: 7px 12px;
+}
+.siderbar{
+	width: 26%;
+    float: left;
+    padding: 7px 12px;
+}
+hr{
+	width: 99%;
+}

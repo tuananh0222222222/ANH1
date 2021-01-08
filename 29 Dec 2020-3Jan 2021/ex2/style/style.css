@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+.row{
+    padding: 20px;
+}
+
+h2{
+    color: #FBCF4E;
+    font-size: 40px;
+}
+
+p{
+    font-style: italic;
+}
