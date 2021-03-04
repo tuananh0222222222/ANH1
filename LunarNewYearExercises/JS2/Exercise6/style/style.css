@@ -1,0 +1,81 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+.shop-bag{
+    width: 60%;
+    background-color: #ffffff;
+    margin: 80px auto;
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid #E1E8EE;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    margin: 0;
+    padding: 20px 30px;
+    font-size: 18px;
+    color:#5E6977;
+}
+.delete-all-item{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: #dc3545;
+    margin-right: 50px;
+    border-radius: 6px;
+}
+.delete-selected{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color:#28a745;
+    margin-right: 50px;
+    border-radius: 6px;
+}
+button{
+    border: none;
+}
+.item{
+    padding: 20px 30px;
+    display: flex;
+    border-bottom: 1px solid #E1E8EE;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.delete-item{
+    margin-left: 50px;
+}
+.bball-high,
+.future-sneakers,
+.brushed-scarf{
+    width: 130px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+.bball-high{
+    background-image: url("./images/item-1.png");
+}
+.future-sneakers{
+    background-image: url("./images/item-2.png");
+}
+.brushed-scarf{
+    background-image: url("./images/item-3.png");
+}
+.description{
+    width: 110px;
+}
+#quantity{
+    width: 25px;
+    text-align: center;
+    border: none;
+}
+.total-price{
+    width: 60px;
+    font-weight: bold;
+}

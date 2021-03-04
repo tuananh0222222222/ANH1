@@ -1,0 +1,17 @@
+ .container{
+        width: 30%;
+        margin:0 auto;
+        line-height: 28px;
+    }
+    label{
+        float: left;
+    }
+    input{
+        float: right;
+    }
+    button{
+        float: right;
+    }
+    p{
+        text-align: center;
+    }

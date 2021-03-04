@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="shop-bag">
+            <div class="header">
+                <h3>Shopping bag</h3>
+                <button class="delete-all-item">Empty my cart</button>
+                <button class="delete-selected">Delete selected</button>
+            </div>
+            <div class="show-bag">
+                <div class="item">
+                    <div class="button">
+                        <input type="checkbox" name="selected-item" id="selected-item">
+                        <button class="delete-item"><img src="./images/delete-icn.svg" alt="delete"></button>
+                    </div>
+                    <div class="image bball-high"></div>
+                    <div class="description">
+                        <b>Common project <br> Bball high</b> <br> <small>White</small>
+                    </div>
+                    <div class="quantity">
+                        <button class="minius-btn"><img src="./images/minus.svg" alt="minus"></button>
+                        <input type="text" name="quantity" id="quantity" value="1">
+                        <button class="plus-btn"><img src="./images/plus.svg" alt="plus"></button>
+                    </div>
+                    <div class="total-price">
+                        $549
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="button">
+                        <input type="checkbox" name="selected-item" id="selected-item">
+                        <button class="delete-item"><img src="./images/delete-icn.svg" alt="delete"></button>
+                    </div>
+                    <div class="image future-sneakers"></div>
+                    <div class="description">
+                        <b>Maison Margiela <br> Future Sneakers</b> <br> <small>White</small>
+                    </div>
+                    <div class="quantity">
+                        <button class="minius-btn"><img src="./images/minus.svg" alt="minus"></button>
+                        <input type="text" name="quantity" id="quantity" value="1">
+                        <button class="plus-btn"><img src="./images/plus.svg" alt="plus"></button>
+                    </div>
+                    <div class="total-price">
+                        $870
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="button">
+                        <input type="checkbox" name="selected-item" id="selected-item">
+                        <button class="delete-item"><img src="./images/delete-icn.svg" alt="delete"></button>
+                    </div>
+                    <div class="image brushed-scarf"></div>
+                    <div class="description">
+                        <b>Our legacy <br> Brushed Scarf</b> <br> <small>Brown</small>
+                    </div>
+                    <div class="quantity">
+                        <button class="minius-btn"><img src="./images/minus.svg" alt="minus"></button>
+                        <input type="text" name="quantity" id="quantity" value="1">
+                        <button class="plus-btn"><img src="./images/plus.svg" alt="plus"></button>
+                    </div>
+                    <div class="total-price">
+                        $349
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./style/script.js"></script>
+</body>
+</html>
