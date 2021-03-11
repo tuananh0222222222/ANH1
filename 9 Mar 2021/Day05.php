@@ -1,7 +1,7 @@
 <?php
 //1
     for ($n=1;$n<=100;$n++){
-        echo"" .$n ;
+        echo $n ;
     }
 ?>
 <br><br>
