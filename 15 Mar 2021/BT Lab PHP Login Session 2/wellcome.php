@@ -2,6 +2,7 @@
 
     if (session_id() === '')
     session_start();
+    session_destroy();
 
     if( isset( $_SESSION['counter'] ) )
     {

@@ -1,6 +1,8 @@
-
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,5 +53,11 @@
     <input type="submit" value="Submit">
     <input type="reset" value="Reset">
 </form> 
+
+
+<?php
+    
+?> 
+
 </body>
 </html>

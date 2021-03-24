@@ -23,17 +23,4 @@
 </body>
 
 
-<?php
-	$username = "camnh";
-	$password = "123456";
-
-	if (isset($_POST['login'])) {
-		if ($username == $_POST['name'] && $password == $_POST['password']) 
-			$_SESSION['name'] = $username;
-			$_SESSION['password'] = $password;
-		{
-			header ("location:login-success.php");
-		}	
-	}
-?>
 </html>
