@@ -1,0 +1,9 @@
+body {
+  background: #9c1010;
+}
+.row {
+  background: lightblue;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
